@@ -1,0 +1,7 @@
+<h1>Alphabetized Customers</h1>
+<%= link_to 'All Customers', root_path %>
+<%= link_to 'Customers Missing Emails', customers_missing_email_path %>
+
+<div class="customers-list">
+  <%= render @customers %>
+</div>
